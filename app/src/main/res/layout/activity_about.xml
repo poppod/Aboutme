@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center|start"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="169dp"
+            android:layout_height="167dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginLeft="110dp"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/my"
+            tools:layout_editor_absoluteX="112dp"
+            tools:layout_editor_absoluteY="61dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:lineSpacingExtra="10sp"
+            android:text="Mr. Pramarn MoonPrasarn"
+            android:textSize="24sp"
+            android:typeface="normal"
+            app:fontFamily="sans-serif-condensed" />
+
+        <TextView
+            android:id="@+id/Id_stu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginLeft="130dp"
+            android:lineSpacingExtra="10sp"
+            android:text="115810400018-2"
+            android:textSize="18sp"
+            android:typeface="normal"
+            app:fontFamily="sans-serif" />
+
+        <Button
+            android:id="@+id/btn_back_aboutme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="150dp"
+            android:text="@string/back" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
